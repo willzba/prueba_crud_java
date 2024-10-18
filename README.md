@@ -4,13 +4,18 @@ Este proyecto es una aplicación básica de gestión de productos que utiliza un
 
 # **Características:**
 CRUD Completo: Operaciones básicas de creación, lectura, actualización y eliminación de productos.
+
 Identificadores Únicos con UUID: Cada producto tiene un identificador único generado automáticamente con UUID.
+
 Gestión en Memoria: Los productos se almacenan temporalmente en una lista en memoria.
+
 Endpoints REST: Los productos pueden ser gestionados a través de llamadas HTTP utilizando controladores REST.
 
 # **Tecnologías:**
 Spring Boot: Framework principal para la construcción de la API REST.
-Java 11+: Lenguaje de programación utilizado.
+
+Java 17+: Lenguaje de programación utilizado.
+
 UUID: Identificadores únicos universales generados automáticamente para cada producto.
 
 # **Endpoints de la API:**
